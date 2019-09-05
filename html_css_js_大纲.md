@@ -1,0 +1,246 @@
+# 前端知识大纲
+
+- 知识大纲
+	- HTML
+		- 页面结构
+			- 一个最简单的页面结构
+			- 表现和样式分离概念
+		- 标签属性讲解
+			- doctype
+			- lang
+			- meta
+				- charset 编码和乱码
+				- viewport
+				- keyword
+				- description
+			- 常见标签
+				- 标签的使用场景
+				- 标签的闭合、嵌套、大小写、id和class基本规范
+				- alt和title的区别
+				- a的target的几种值
+				- table的写法和使用场景
+			- 表单
+				- 表单提交的概念
+				- name的作用
+				- post和get请求
+				- 多选提交
+				- radio分组
+				- type=hidden的作用
+				- placeholder
+			- html5标签
+	- CSS
+		- 样式的加载
+			- CSS引入方法
+			- link和@import的差别
+			- 几种文件路径区别
+		- css选择器
+			- 选择器类型
+			- 选择器权重计算
+			- 伪类和伪元素
+				- a 链接伪类选择器顺序原理
+				- :first-of-type 和 :first-child
+				- :before 和 :after 用法
+		- 基本样式
+			- 基本概念
+				- 基本样式调试
+				- 浏览器默认样式
+				- 块级元素vs行内元素
+			- font
+				- font的写法
+				- line-height的用法
+				- font-family用法和原理
+				- chrome最小字体尺寸
+			- 单位	
+				- px em rem vw
+				- 百分比的用法
+			- text
+				- text-align的几种写法
+				- 单行文本溢出加...
+				- a 链接去除下划线
+				- 列表去掉点
+			- 颜色
+				- 颜色的几种表示方法
+				- a 链接的颜色设置
+			- 背景
+				- 背景色，背景图片的使用方法
+				- CSS sprite的原理和用法
+				- image标签 vs 背景图片
+		- 盒模型
+			- 盒模型属性
+			- IE 盒模型 & W3C 盒模型 & box-sizing
+		- 浮动
+			- 浮动的定义、使用场景
+			- 清除浮动clearfix
+			- 浮动与负margin
+			- 浮动与BFC
+			- 浮动与inline-block
+			- 浮动的应用
+				- 菜单栏
+				- 两栏布局
+				- 三栏布局
+		- 定位
+			- 定位的几种方法、用法、使用场景
+			- 脱离文档流概念
+			- z-index
+		- 布局
+			- 固定宽度居中布局
+			- 简单的2栏布局
+			- 简单的3栏布局
+		- 浏览器兼容
+			- ie6、7、8的 hack 写法
+			- HTML条件注释
+		- 其他知识点
+			- class命名技巧
+			- inline-block使用、缝隙、对齐
+			- vertical-align的用法
+			- 水平居中、垂直居中的几种方式
+			- 字体图标的原理和用法
+			- 伪元素、边框的妙用
+			- 外边距合并
+			- 清除浮动的几种方法
+			- 媒体查询与响应式
+			- CSS Reset 和 Normalize
+			- 块级格式化上下文
+			- 实现一个栅格系统
+			- 前端编码规范
+	- JavaScript
+		- 概念
+			- URL、浏览器、服务器、网站相关概念
+			- 页面渲染原理
+			- 白屏、FOUC原理
+			- async、 defer
+		- ES3 ES5
+			- 数据类型
+			- 运算符
+			- 流程控制语句
+			- 函数
+			- 内置对象
+				- 字符串
+				- 数组、ES5数组方法
+				- 日期
+				- Math
+				- 正则表达式
+			- 定时器
+				- 最小时间粒度
+			- 重要概念
+				- 基本类型和引用类型
+				- 作用域
+				- 声明前置
+				- 闭包
+				- 立即执行函数表达式
+				- 同步和异步
+				- 单线程、任务队列、时间循环
+			- 实战
+				- 封装一个Util库，包括类型判断、日期格式化、正则检测、事件兼容封装、深浅拷贝等
+        - ES6
+            - 块级变量 let 块级常量 const 块级作用域
+            - 解构赋值
+            - 箭头函数
+            - 类 
+                - class 
+                - extends 
+                - super
+            - 模块
+                - import 
+                - export 
+                - export default
+            - 生成器 generator
+            - promise
+            - ... 展开运算符
+            - `` ${test} 模版字面量
+		- DOM
+			- Dom 遍历
+			- Dom 操作
+			- 事件
+				- 事件绑定方法
+				- 常见事件介绍
+				- 事件冒泡、捕获与应用
+				- 事件兼容写法
+				- 事件代理与应用
+				- 阻止默认事件
+		- BOM
+			- history
+			- location
+			- navigator
+			- localStorage
+			- cookie & session
+		- Ajax
+			- 概念
+			- ajax 的使用
+            - xhr 手写 ajax
+		- 跨域
+			- 跨域的概念
+			- 跨域的实现
+                - jsonp
+                - cors
+                - postMessage
+                - 降域
+		- jQuery
+			- 选择器
+			- DOM操作
+			- 属性和CSS操作
+			- 常用函数
+			- 事件处理
+			- 常见效果和动画
+			- ajax
+			- deferred
+		- 面向对象
+			- 面向对象概念
+			- 构造函数创建对象
+			- this
+			- 原型
+			- 原型链
+			- 继承
+			- 代码封装的方法
+		- 设计模式
+			- 构造器模式
+			- 模块模式
+			- 单例模式
+			- 发布订阅模式
+			- 实战
+				- 封装一个事件管理器
+		- 技能
+			- 熟练使用 console.log 来 debug
+			- 熟练使用二分法来 debug
+				- 注释一半代码
+			- 熟练使用 network 分析请求和响应
+	- HTML5&CSS3
+		- HTML5常见标签使用
+            - header footer main article section aside
+            - canvas radio audio
+		- CSS3 背景、边框、阴影
+		- CSS3 2D 3D 转换
+		- CSS3 渐变、动画
+		- flex 布局
+	- 模块化
+		- 模块化的价值
+		- commonjs、AMD、CMD、UMD规范
+		- RequireJS的使用
+		- webpack的使用
+	- npm & Node
+		- NodeJS介绍
+		- npm 使用
+	- 工程化
+		- gulp 打造自动化流程
+			- 图片压缩
+			- CSS 压缩合并 autoprefixer 自动版本号
+			- JS lint 压缩合并自动版本号
+			- Less 转 CSS
+			- HTML 资源定位
+			- livereload
+		- npm Scripts 使用
+	- 综合
+		- 性能优化
+		- HTTP
+			- http 介绍
+			- 缓存控制
+		- Web 安全
+			- XSS 攻击
+			- CSRF 攻击
+		- 移动端特性
+            - 防止缩放
+            - 没有 hover resize
+            - 模拟 swiper
+		- MVC 介绍
+	
+
